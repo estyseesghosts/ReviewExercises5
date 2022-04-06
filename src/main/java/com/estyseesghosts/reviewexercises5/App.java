@@ -39,7 +39,7 @@ public class App {
 			DayNumber.main();
 			break;
 		case 9: 
-			//Swap.main();
+			Triangle2.main();
 			break;
 		case 10:
 			//FiftyPrimes.fiftyPrimes();
