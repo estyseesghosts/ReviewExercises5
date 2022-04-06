@@ -9,7 +9,7 @@ public class App {
 
 	System.out.println("Choose a program");
 	System.out.println("1 - Norm, 2 - IsSquare, 3 - Digit, 4 - ConvertToGrade");
-	System.out.println("5 - Triangle");
+	System.out.println("5 - Triangle, 6 - LeastFactor, 7 - PrimeFactors, 8 - DayNumber");
 
 	int prog = scanner.nextInt();
 
@@ -36,7 +36,7 @@ public class App {
 			PrimeFactors.main();
 			break;
 		case 8: 
-			//ReplaceLetter.main();
+			DayNumber.main();
 			break;
 		case 9: 
 			//Swap.main();
