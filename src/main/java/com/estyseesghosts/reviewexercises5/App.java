@@ -8,45 +8,47 @@ public class App {
 	Scanner scanner = new Scanner(System.in);
 
 	System.out.println("Choose a program");
-	System.out.println("1 - AddNumbers, 2 - AvgMark, 3 - CubeSums, 4 - FindFactors, 5 - IntOrString");
-	System.out.println("6 - LastMultiple, 7 - PrintOddIndices, 8 - ReplaceLetter, 9 - Swap, 10 - FiftyPrimes");
-	System.out.println("11 - Eleven, 12 - Rectangle");
+	System.out.println("1 - Norm, 2 - IsSquare, 3 - Digit, 4 - ConvertToGrade");
+	System.out.println("5 - Triangle");
+
 	int prog = scanner.nextInt();
 
 	switch (prog) {
 		case 1: 
-			AddNumbers.main();
+			Norm.main();
 			break;
 		case 2: 
-			AvgMark.main(); 
+			IsSquare.main(); 
 			break;
 		case 3: 
-			CubeSums2.cubeSum();
+			Digit.main();
 			break;
 		case 4: 
-			FindFactors.main();
+			ConvertToGrade.main();
 			break;
 		case 5: 
-			IntOrString.main();
+			Triangle.main();
 			break;
 		case 6: 
-			LastMultiple.main();
+			LeastFactor.main();
 			break;
 		case 7: 
-			PrintOddIndices.main();
+			PrimeFactors.main();
 			break;
 		case 8: 
-			ReplaceLetter.main();
+			//ReplaceLetter.main();
 			break;
 		case 9: 
-			Swap.main();
+			//Swap.main();
 			break;
 		case 10:
-			FiftyPrimes.fiftyPrimes();
+			//FiftyPrimes.fiftyPrimes();
 			break;
-		case 11: Eleven.main();
+		case 11: 
+			//Eleven.main();
 			break;
-		case 12: Rectangle.main();
+		case 12: 
+			//Rectangle.main();
 	}
     }
 }
